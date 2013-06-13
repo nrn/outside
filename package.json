@@ -1,0 +1,15 @@
+{ "name": "outside"
+, "version": "0.0.1"
+, "description": "Expose the worker api as a duplex stream inside the worker."
+, "keywords": [ "worker", "stream" ]
+, "author": "Nick Niemeir <nick.niemeir@gmail.com> (http://nrn.io)"
+, "scripts": { "test": "node test.js" }
+, "dependencies":
+  { "through": "*"
+  }
+, "engines": { "node": ">=0.10" }
+, "repository":
+  { "type": "git"
+  , "url": "git://github.com/nrn/outside.git"
+  }
+}
