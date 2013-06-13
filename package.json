@@ -1,9 +1,8 @@
 { "name": "outside"
 , "version": "0.0.1"
-, "description": "Expose the worker api as a duplex stream inside the worker."
+, "description": "Expose the dedicated worker api as a duplex stream for use inside the worker."
 , "keywords": [ "worker", "stream" ]
 , "author": "Nick Niemeir <nick.niemeir@gmail.com> (http://nrn.io)"
-, "scripts": { "test": "node test.js" }
 , "dependencies":
   { "through": "*"
   }
