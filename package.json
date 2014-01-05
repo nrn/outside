@@ -3,8 +3,11 @@
 , "description": "Expose the dedicated worker api as a duplex stream for use inside the worker."
 , "keywords": [ "worker", "stream" ]
 , "author": "Nick Niemeir <nick.niemeir@gmail.com> (http://nrn.io)"
-, "dependencies":
-  { "through": "*"
+, "scripts": { "start": "beefy index.js worker.js --cwd example" }
+, "dependencies": { "through": "*" }
+, "devDependencies":
+  { "beefy": "*"
+  , "workerstream": "*"
   }
 , "engines": { "node": ">=0.10" }
 , "repository":

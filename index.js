@@ -6,7 +6,11 @@ var st = through(function (a, b) {
 
 module.exports = st
 
-onmessage = function (ev) {
-  return st.emit('data', ev.data, ev)
-}
+self.addEventListener('message', function (ev) {
+  st.emit('data', ev.data, ev)
+})
+
+self.addEventListener('error', function (err) {
+  st.emit('error', err)
+})
 
