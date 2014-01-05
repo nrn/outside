@@ -1,5 +1,5 @@
 { "name": "outside"
-, "version": "0.0.1"
+, "version": "0.1.0"
 , "description": "Expose the dedicated worker api as a duplex stream for use inside the worker."
 , "keywords": [ "worker", "stream" ]
 , "author": "Nick Niemeir <nick.niemeir@gmail.com> (http://nrn.io)"
